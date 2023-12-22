@@ -205,6 +205,45 @@ La configuration des ressources réseau sur le portail Azure implique plusieurs 
 ![Screenshot](Screenshot_24.png)
 ![Screenshot](Screenshot_25.png)
 
+# Configure Monitoring and Logging
+
+La configuration de la surveillance (monitoring) et de la journalisation (logging) des coûts sur Azure peut être réalisée en suivant ces étapes générales :
+
+1. **Connexion à Azure :** Connectez-vous à votre compte Azure sur le portail Azure à [https://portal.azure.com/](https://portal.azure.com/).
+
+2. **Navigation vers le service "Facturation et coûts" :** Dans le portail Azure, cliquez sur "Créer une ressource" dans le menu de gauche, puis recherchez et sélectionnez "Facturation et coûts" dans la section "Tous les services". Vous pouvez également naviguer directement vers "Tous les services" > "Facturation + Coûts".
+
+3. **Configuration des alertes budgétaires (facultatif) :**
+   - Dans la section "Facturation + Coûts", cliquez sur "Alertes budgétaires" dans le menu de gauche.
+   - Cliquez sur "Configurer une alerte budgétaire" pour créer une alerte sur les dépenses.
+
+4. **Configuration des budgets :**
+   - Définissez les détails du budget, tels que le nom, la plage de dates, le montant du budget, etc.
+   - Configurez les alertes pour être informé lorsque les dépenses atteignent ou dépassent un seuil défini.
+
+5. **Configuration des journaux d'activité (logs) :**
+   - Dans la section "Facturation + Coûts", cliquez sur "Journaux d'activité" dans le menu de gauche.
+   - Activez les journaux d'activité Azure pour collecter des informations détaillées sur les opérations effectuées dans votre abonnement.
+
+6. **Configuration de la journalisation de l'utilisation :**
+   - Cliquez sur "Journalisation de l'utilisation" dans la section "Facturation + Coûts".
+   - Activez la journalisation de l'utilisation pour collecter des données détaillées sur l'utilisation des services.
+
+7. **Configuration des rapports d'utilisation (facultatif) :**
+   - Dans la section "Facturation + Coûts", cliquez sur "Rapports d'utilisation" dans le menu de gauche.
+   - Configurez des rapports personnalisés pour obtenir des informations détaillées sur l'utilisation et les coûts.
+
+8. **Vérification et création :** Passez en revue toutes les configurations que vous avez définies, puis cliquez sur le bouton "Vérifier + créer" pour valider la configuration.
+
+9. **Validation et déploiement :** Azure effectuera une validation de votre configuration. Si la validation réussit, cliquez sur "Créer" pour déployer la configuration de surveillance et de journalisation des coûts.
+
+10. **Accès aux rapports et aux données de surveillance :**
+    - Une fois le déploiement terminé, accédez aux rapports et aux données de surveillance depuis la section "Facturation + Coûts" dans le portail Azure.
+
+![Screenshot](Screenshot_26.png)
+![Screenshot](Screenshot_27.png)
+![Screenshot](Screenshot_28.png)
+
 
 
 
