@@ -65,7 +65,41 @@ La création d'un compte de stockage Azure avec un conteneur Blob Storage peut �
 ![Screenshot](Screenshot_9.png)
 ![Screenshot](Screenshot_10.png)
 
-## Usage
+# Deploy a Web App
+
+Le déploiement d'une application web sur Azure peut être réalisé en suivant ces étapes générales sur le portail Azure :
+
+1. **Connexion à Azure :** Connectez-vous à votre compte Azure sur le portail Azure à l'adresse [https://portal.azure.com/](https://portal.azure.com/).
+
+2. **Navigation vers le service "App Service" :** Dans le portail Azure, cliquez sur "Créer une ressource" dans le menu de gauche, puis recherchez et sélectionnez "App Service" dans la section "Tous les services". Vous pouvez également trouver le service en naviguant directement vers "Tous les services" > "App Service".
+
+3. **Création d'un nouvel App Service :**
+   - Cliquez sur le bouton "+ Ajouter" pour créer un nouvel App Service.
+   - Remplissez les informations nécessaires, telles que le nom de l'App Service, le modèle de déploiement, le groupe de ressources, la région, le système d'exploitation, etc.
+
+4. **Configuration de l'hébergement :**
+   - Choisissez un plan tarifaire (tarification de l'App Service) en fonction de vos besoins.
+   - Configurez d'autres paramètres tels que la pile d'exécution (Node.js, .NET, Python, etc.) et la version de runtime.
+
+5. **Configuration des paramètres avancés (facultatif) :** Configurez des options avancées telles que la mise à l'échelle automatique, la gestion des paramètres, les règles d'arrêt automatique, etc. Ces options sont facultatives et peuvent être ajustées en fonction de vos besoins spécifiques.
+
+6. **Vérification et création :** Passez en revue toutes les configurations que vous avez définies, puis cliquez sur le bouton "Vérifier + créer" pour valider la configuration.
+
+7. **Validation et déploiement :** Azure effectuera une validation de votre configuration. Si la validation réussit, cliquez sur "Créer" pour déployer l'App Service.
+
+8. **Accès à l'App Service :** Une fois le déploiement terminé, accédez à votre App Service depuis le portail Azure en naviguant vers "Tous les services" > "App Services" > [Nom de l'App Service].
+
+9. **Déploiement de l'application :**
+   - Dans la section de votre App Service, cliquez sur "Déploiements" dans le menu de gauche.
+   - Sélectionnez la méthode de déploiement souhaitée, comme le déploiement continu depuis un référentiel Git, un référentiel Azure DevOps, ou le déploiement manuel.
+
+10. **Suivi du déploiement :** Suivez le processus de déploiement dans la section "Déploiements" pour vous assurer que votre application est correctement déployée.
+
+![Screenshot](Screenshot_11.png)
+![Screenshot](Screenshot_12.png)
+![Screenshot](Screenshot_13.png)
+![Screenshot](Screenshot_14.png)
+
 
 ```python
 import foobar
