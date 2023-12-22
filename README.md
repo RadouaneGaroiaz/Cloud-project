@@ -98,7 +98,39 @@ Le déploiement d'une application web sur Azure peut être réalisé en suivant 
 ![Screenshot](Screenshot_11.png)
 ![Screenshot](Screenshot_12.png)
 ![Screenshot](Screenshot_13.png)
+
+# Create a SQL Database
+
+La création d'une base de données SQL sur Azure peut être réalisée en suivant ces étapes générales sur le portail Azure :
+
+1. **Connexion à Azure :** Connectez-vous à votre compte Azure sur le portail Azure à l'adresse [https://portal.azure.com/](https://portal.azure.com/).
+
+2. **Navigation vers le service "Bases de données SQL" :** Dans le portail Azure, cliquez sur "Créer une ressource" dans le menu de gauche, puis recherchez et sélectionnez "Bases de données SQL" dans la section "Tous les services". Vous pouvez également trouver le service en naviguant directement vers "Tous les services" > "Bases de données SQL".
+
+3. **Création d'une nouvelle base de données SQL :**
+   - Cliquez sur le bouton "+ Ajouter" pour créer une nouvelle base de données SQL.
+   - Remplissez les informations nécessaires, telles que le nom de la base de données, le modèle de déploiement, le groupe de ressources, la région, le serveur SQL, etc.
+
+4. **Configuration du serveur SQL :**
+   - Si vous n'avez pas encore de serveur SQL, créez-en un en spécifiant un nom unique, un nom d'administrateur et un mot de passe.
+   - Configurez d'autres paramètres du serveur, tels que la version du serveur, la capacité, etc.
+
+5. **Configuration des paramètres avancés (facultatif) :** Configurez des options avancées telles que la sécurité avancée, la rétention automatique, etc. Ces options sont facultatives et peuvent être ajustées en fonction de vos besoins spécifiques.
+
+6. **Configuration des règles pare-feu :** Configurez les règles pare-feu pour spécifier quels clients peuvent accéder à votre base de données SQL. Vous pouvez autoriser l'accès à partir d'une plage d'adresses IP spécifique.
+
+7. **Vérification et création :** Passez en revue toutes les configurations que vous avez définies, puis cliquez sur le bouton "Vérifier + créer" pour valider la configuration.
+
+8. **Validation et déploiement :** Azure effectuera une validation de votre configuration. Si la validation réussit, cliquez sur "Créer" pour déployer la base de données SQL.
+
+9. **Accès à la base de données :** Une fois le déploiement terminé, accédez à votre base de données SQL depuis le portail Azure en naviguant vers "Tous les services" > "Bases de données SQL" > [Nom de la base de données].
+
+10. **Gestion de la base de données :** Vous pouvez gérer votre base de données, y compris la configuration, la surveillance, et l'exécution de requêtes SQL, depuis le portail Azure.
+
 ![Screenshot](Screenshot_14.png)
+![Screenshot](Screenshot_15.png)
+![Screenshot](Screenshot_16.png)
+![Screenshot](Screenshot_17.png)
 
 
 ```python
