@@ -274,6 +274,24 @@ Cela implique généralement la création d'une identité managée (Managed Iden
 ![Screenshot](Screenshot_30.png)
 ![Screenshot](Screenshot_31.png)
 
+# Create a personalized Resource Group
+
+1. **Connexion à Azure :** Connectez-vous à votre compte Azure sur le portail Azure à [https://portal.azure.com/](https://portal.azure.com/).
+
+2. **Navigation vers le service "Groupes de ressources" :** Dans le portail Azure, cliquez sur "Créer une ressource" dans le menu de gauche, puis recherchez et sélectionnez "Groupes de ressources" dans la section "Tous les services". Vous pouvez également naviguer directement vers "Tous les services" > "Groupes de ressources".
+
+3. **Création d'un nouveau groupe de ressources :**
+   - Cliquez sur le bouton "+ Ajouter" pour créer un nouveau groupe de ressources.
+   - Remplissez les informations nécessaires, telles que le nom du groupe de ressources, le modèle de déploiement, la région, etc.
+
+4. **Vérification et création :** Passez en revue toutes les configurations que vous avez définies, puis cliquez sur le bouton "Vérifier + créer" pour valider la configuration.
+
+5. **Validation et déploiement :** Azure effectuera une validation de votre configuration. Si la validation réussit, cliquez sur "Créer" pour déployer le groupe de ressources.
+
+6. **Accès au groupe de ressources :** Une fois le déploiement terminé, accédez à votre groupe de ressources depuis le portail Azure en naviguant vers "Tous les services" > "Groupes de ressources" > [Nom du groupe de ressources].
+
+![Screenshot](Screenshot_32.png)
+![Screenshot](Screenshot_33.png)
 
 ```python
 import foobar
