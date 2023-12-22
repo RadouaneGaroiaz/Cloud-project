@@ -29,16 +29,41 @@ La création d'une machine virtuelle (VM) sur le portail Azure implique plusieur
 ![Screenshot](Screenshot_4.png)
 
 
+# Set Up Blob Storage
 
+La création d'un compte de stockage Azure avec un conteneur Blob Storage peut être réalisée en suivant ces étapes sur le portail Azure :
 
+1. **Connexion à Azure :** Connectez-vous à votre compte Azure sur le portail Azure à l'adresse [https://portal.azure.com/](https://portal.azure.com/).
 
-## Installation
+2. **Navigation vers le service "Stockage" :** Dans le portail Azure, cliquez sur "Créer une ressource" dans le menu de gauche, puis recherchez et sélectionnez "Stockage" dans la section "Tous les services". Vous pouvez également trouver le service en naviguant directement vers "Tous les services" > "Stockage".
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+3. **Création d'un compte de stockage :**
+   - Cliquez sur le bouton "+ Ajouter" pour créer un nouveau compte de stockage.
+   - Remplissez les informations nécessaires comme le nom du compte de stockage, le modèle de déploiement, le groupe de ressources, la région, et choisissez le type de réplication de données (Localement Redondant, Géoredondant, etc.).
 
-```bash
-pip install foobar
-```
+4. **Configuration avancée (facultative) :** Vous pouvez configurer des options avancées telles que les paramètres réseau, les tags, la gestion avancée, etc. Ces options sont facultatives et peuvent être laissées par défaut si vous n'avez pas de besoins spécifiques.
+
+5. **Vérification et création :** Passez en revue toutes les configurations que vous avez définies, puis cliquez sur le bouton "Vérifier + créer" pour valider la configuration.
+
+6. **Validation et déploiement :** Azure effectuera une validation de votre configuration. Si la validation réussit, cliquez sur "Créer" pour déployer le compte de stockage.
+
+7. **Accéder au compte de stockage :** Une fois le déploiement terminé, accédez au compte de stockage nouvellement créé. Vous pouvez le trouver dans le portail Azure en naviguant vers "Tous les services" > "Stockage" > [Nom du compte de stockage].
+
+8. **Création d'un conteneur Blob Storage :**
+   - Dans la section du compte de stockage, cliquez sur "Conteneurs" dans le menu de gauche.
+   - Cliquez sur le bouton "+ Conteneur" pour créer un nouveau conteneur Blob Storage.
+   - Donnez un nom unique au conteneur, choisissez l'accès public (privé ou public en lecture) et configurez d'autres options si nécessaire.
+
+9. **Validation et déploiement du conteneur :** Passez en revue les configurations du conteneur, puis cliquez sur "OK" pour créer le conteneur.
+
+10. **Accès au conteneur :** Une fois le conteneur créé, vous pouvez y accéder et commencer à stocker des blobs (objets) dans le stockage.
+
+![Screenshot](Screenshot_5.png)
+![Screenshot](Screenshot_6.png)
+![Screenshot](Screenshot_7.png)
+![Screenshot](Screenshot_8.png)
+![Screenshot](Screenshot_9.png)
+![Screenshot](Screenshot_10.png)
 
 ## Usage
 
