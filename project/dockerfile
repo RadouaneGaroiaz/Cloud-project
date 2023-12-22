@@ -1,0 +1,28 @@
+FROM node:18.16.0
+
+
+# Create the bot's directory
+
+RUN mkdir -p /usr/src/bot
+
+WORKDIR /usr/src/bot
+
+#ENV
+
+ENV CLIENT_TOKEN = MTA3MjEzNjU5MzA2MzgxNzMyNg.GTuTok.Kp4vV3q9Gczb6c7kpSdV61jed1R3bLERu3inWM
+ENV CLIENT_ID =1072136593063817326
+ENV MONGODB_URI = "mongodb+srv://dudu49:Bermylove97@radiodatabase.mongocluster.cosmos.azure.com/?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000"
+
+COPY package.json /usr/src/bot
+
+RUN npm install
+
+
+
+COPY . /usr/src/bot
+
+EXPOSE 3000
+
+# Start the bot.
+
+CMD ["node", "."]
