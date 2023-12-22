@@ -132,6 +132,81 @@ La création d'une base de données SQL sur Azure peut être réalisée en suiva
 ![Screenshot](Screenshot_16.png)
 ![Screenshot](Screenshot_17.png)
 
+# Implement a simple Azure Functions
+
+La création d'une fonction Azure sur le portail Azure peut être réalisée en suivant ces étapes générales :
+
+1. **Connexion à Azure :** Connectez-vous à votre compte Azure sur le portail Azure à l'adresse [https://portal.azure.com/](https://portal.azure.com/).
+
+2. **Navigation vers le service "Functions App" :** Dans le portail Azure, cliquez sur "Créer une ressource" dans le menu de gauche, puis recherchez et sélectionnez "Functions App" dans la section "Tous les services". Vous pouvez également trouver le service en naviguant directement vers "Tous les services" > "Functions App".
+
+3. **Création d'une nouvelle Functions App :**
+   - Cliquez sur le bouton "+ Ajouter" pour créer une nouvelle Functions App.
+   - Remplissez les informations nécessaires, telles que le nom de l'application, le modèle de déploiement, le groupe de ressources, la région, etc.
+
+4. **Configuration des paramètres avancés (facultatif) :** Configurez des options avancées telles que la version du runtime, le système d'exploitation, le plan tarifaire, etc. Ces options sont facultatives et peuvent être ajustées en fonction de vos besoins spécifiques.
+
+5. **Configuration de la surveillance (facultatif) :** Vous pouvez activer la surveillance pour collecter des données de télémétrie sur les performances de votre Functions App. Cela est facultatif mais peut être utile pour le suivi et le débogage.
+
+6. **Vérification et création :** Passez en revue toutes les configurations que vous avez définies, puis cliquez sur le bouton "Vérifier + créer" pour valider la configuration.
+
+7. **Validation et déploiement :** Azure effectuera une validation de votre configuration. Si la validation réussit, cliquez sur "Créer" pour déployer la Functions App.
+
+8. **Accès à la Functions App :** Une fois le déploiement terminé, accédez à votre Functions App depuis le portail Azure en naviguant vers "Tous les services" > "Functions Apps" > [Nom de l'application].
+
+9. **Ajout d'une fonction :**
+   - Dans la section de votre Functions App, cliquez sur "Ajouter une fonction" dans le menu de gauche.
+   - Sélectionnez le modèle de fonction que vous souhaitez utiliser, tel que HTTP trigger, Timer trigger, etc.
+
+10. **Configuration de la fonction :**
+    - Remplissez les informations nécessaires spécifiques à la fonction que vous ajoutez, comme le nom, l'autorisation, etc.
+    - Cliquez sur "Ajouter" pour créer la fonction.
+
+11. **Test de la fonction :**
+    - Après avoir ajouté la fonction, vous pouvez tester son exécution en utilisant l'interface du portail Azure.
+
+![Screenshot](Screenshot_18.png)
+![Screenshot](Screenshot_19.png)
+![Screenshot](Screenshot_20.png)
+![Screenshot](Screenshot_21.png)
+
+
+# Set Up a Networking ressource
+
+La configuration des ressources réseau sur le portail Azure implique plusieurs étapes, notamment la création de réseaux virtuels, de groupes de sécurité réseau, de sous-réseaux, etc. Voici une procédure générale pour configurer des ressources réseau sur le portail Azure :
+
+1. **Connexion à Azure :** Connectez-vous à votre compte Azure sur le portail Azure à [https://portal.azure.com/](https://portal.azure.com/).
+
+2. **Navigation vers le service "Réseaux" :** Dans le portail Azure, cliquez sur "Créer une ressource" dans le menu de gauche, puis recherchez et sélectionnez "Réseaux" dans la section "Tous les services". Vous pouvez également naviguer directement vers "Tous les services" > "Réseaux".
+
+3. **Création d'un réseau virtuel (VNet) :**
+   - Cliquez sur le bouton "+ Ajouter" pour créer un nouveau réseau virtuel.
+   - Remplissez les informations nécessaires, telles que le nom du VNet, le groupe de ressources, la région, l'espace d'adressage IP, etc.
+
+4. **Configuration des sous-réseaux :** Lors de la création du VNet, vous pouvez également ajouter des sous-réseaux en spécifiant leurs noms et plages d'adresses IP.
+
+5. **Création de groupes de sécurité réseau (NSG) :**
+   - Dans la section de votre VNet, cliquez sur "Groupes de sécurité réseau" dans le menu de gauche.
+   - Cliquez sur le bouton "+ Ajouter" pour créer un nouveau groupe de sécurité réseau.
+   - Remplissez les informations nécessaires, telles que le nom, le groupe de ressources, la région, etc.
+
+6. **Configuration des règles de sécurité :** Dans le groupe de sécurité réseau, configurez les règles de sécurité entrantes et sortantes pour contrôler le trafic réseau autorisé.
+
+7. **Création de règles de routage (facultatif) :** Si vous avez besoin de configurer des règles de routage personnalisées, vous pouvez le faire dans la section "Routage" de votre VNet.
+
+8. **Vérification et création :** Passez en revue toutes les configurations que vous avez définies, puis cliquez sur le bouton "Vérifier + créer" pour valider la configuration.
+
+9. **Validation et déploiement :** Azure effectuera une validation de votre configuration. Si la validation réussit, cliquez sur "Créer" pour déployer le VNet et les autres ressources réseau.
+
+10. **Accès aux ressources réseau :** Une fois le déploiement terminé, accédez à vos ressources réseau depuis le portail Azure en naviguant vers "Tous les services" > "Réseaux" > [Nom du réseau virtuel, groupe de sécurité réseau, etc.].
+
+![Screenshot](Screenshot_22.png)
+![Screenshot](Screenshot_23.png)
+![Screenshot](Screenshot_24.png)
+![Screenshot](Screenshot_25.png)
+
+
+
 
 ```python
 import foobar
