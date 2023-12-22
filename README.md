@@ -244,7 +244,35 @@ La configuration de la surveillance (monitoring) et de la journalisation (loggin
 ![Screenshot](Screenshot_27.png)
 ![Screenshot](Screenshot_28.png)
 
+# Implement Azure Identity by creating a simple dev role
 
+Cela implique généralement la création d'une identité managée (Managed Identity) et peut également inclure l'attribution de ce rôle à des ressources spécifiques. Voici une approche générale pour implémenter une identité Azure et lui attribuer un rôle de développeur :
+
+1. **Connexion à Azure :** Connectez-vous à votre compte Azure sur le portail Azure à [https://portal.azure.com/](https://portal.azure.com/).
+
+2. **Création d'une identité managée :**
+   - Dans le portail Azure, accédez à la ressource à laquelle vous souhaitez attribuer l'identité (par exemple, une machine virtuelle, une fonction, etc.).
+   - Recherchez l'onglet "Identité" dans le panneau de configuration de la ressource.
+   - Activez l'identité managée en le configurant sur "Activé" et enregistrez les modifications.
+
+3. **Attribution d'un rôle au développeur :**
+   - Dans le portail Azure, accédez à la ressource à laquelle vous avez activé l'identité managée.
+   - Recherchez l'onglet "Contrôle d'accès (IAM)" dans le panneau de configuration de la ressource.
+   - Cliquez sur "Ajouter un rôle d'accès" et recherchez le rôle approprié pour les développeurs, par exemple, "Contributeur" qui permet de gérer tous les aspects de la ressource.
+
+4. **Sélection de l'utilisateur ou du groupe :**
+   - Ajoutez le nom d'utilisateur ou le groupe d'utilisateurs auquel vous souhaitez accorder ce rôle.
+   - Vous pouvez sélectionner un utilisateur spécifique, un groupe Azure AD ou même un groupe d'utilisateurs externe si nécessaire.
+
+5. **Validation et ajout du rôle :**
+   - Passez en revue toutes les configurations que vous avez définies, puis cliquez sur le bouton "Ajouter" pour attribuer le rôle au développeur.
+
+6. **Test de l'identité managée :**
+   - Une fois l'identité managée activée et le rôle attribué, vous pouvez tester son fonctionnement en utilisant l'identité managée pour accéder à des ressources Azure (par exemple, en utilisant l'identité managée pour accéder à une base de données Azure).
+
+![Screenshot](Screenshot_29.png)
+![Screenshot](Screenshot_30.png)
+![Screenshot](Screenshot_31.png)
 
 
 ```python
