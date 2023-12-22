@@ -1,6 +1,7 @@
 # Ceate a Virtual Machine (VM)
 
 Foobar is a Python library for dealing with word pluralization.
+![Screenshot](Screenshot_2.png)
 
 
 ## Installation
